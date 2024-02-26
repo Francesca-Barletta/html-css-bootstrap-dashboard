@@ -49,3 +49,9 @@ navbar{
     padding-right: 10px;
     border-radius: 5px;
 }
+.toolbar li{
+    padding: 0 10px;
+}
+.toolbar i {
+    color: darkgrey;
+}
