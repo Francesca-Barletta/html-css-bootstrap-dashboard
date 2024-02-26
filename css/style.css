@@ -1,0 +1,8 @@
+.deco-none{
+    text-decoration: none;
+    color: currentColor;
+    
+}
+ul, ol, menu{
+    list-style: none;
+}
