@@ -3,12 +3,49 @@
     color: currentColor;
     
 }
+
 ul, ol, menu{
     list-style: none;
 }
+
+img{
+    width: 100%;
+}
+
 #app{
     height:100vh;
+    background-color: #F8F9FA;
 }
 .app-content{
     height: 100%;
+}
+navbar{
+    background-color: white;
+    gap: 22px;
+}
+.logo-mobile{
+    width: 33px;
+}
+.search-bar{
+    display: block;
+    position: relative;
+    margin: 12px 0;
+    
+}
+.search-bar i {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    pointer-events:none;
+}
+    
+.search-bar input{
+    background-color: #E5E5E5;
+    height: 42px;
+    width: 100%;
+    outline:none;
+    padding-left: 40px;
+    padding-right: 10px;
+    border-radius: 5px;
 }
