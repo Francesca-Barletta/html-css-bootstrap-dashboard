@@ -19,9 +19,9 @@ img{
 .app-content{
     height: 100%;
 }
-navbar{
+navbar .row{
     background-color: white;
-    gap: 22px;
+    
 }
 .logo-mobile{
     width: 33px;
