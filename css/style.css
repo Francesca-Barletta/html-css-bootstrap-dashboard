@@ -21,6 +21,7 @@ img{
 }
 .app-content{
     height: 100%;
+    overflow: hidden;
 }
 navbar .row{
     background-color: white;
@@ -110,5 +111,5 @@ navbar .row{
 }
 
 .main-app{
-    overflow: auto;
+    overflow: scroll;
 }
