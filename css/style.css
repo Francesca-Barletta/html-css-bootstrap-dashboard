@@ -1,3 +1,4 @@
+
 a.deco-none{
     text-decoration: none;
     color: currentColor;  
@@ -92,4 +93,9 @@ navbar .row{
 .ms-pill{
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
+}
+.img-avatar{
+    aspect-ratio: 1/1;
+    width: 30px;
+    margin-right: 10px;
 }
