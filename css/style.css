@@ -110,6 +110,6 @@ navbar .row{
     }
 }
 
-.main-app{
-    overflow: scroll;
+.app-main, main{
+    overflow: auto;
 }
