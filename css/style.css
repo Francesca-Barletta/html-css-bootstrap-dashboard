@@ -100,3 +100,6 @@ navbar .row{
     margin-right: 10px;
     display: inline-block;
 }
+.ms-offcanvas{
+    width: 100%;
+}
