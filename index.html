@@ -289,82 +289,91 @@
   <div class="offcanvas-body">
     
       <form action="post">
-        <div class="row">
-          <div class="col">
-            
-            <label for="nome" class="form-label">Nome</label>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" id="nome">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+                 <label for="nome" class="form-label">Nome</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="nome">
+                 </div>
             </div>
-            <label for="basic-addon1" class="form-label">Email</label>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
+            <div class="col">
+                <label for="cognome" class="form-label">Cognome</label>
+              <div class="input-group mb-3">
+                 <input type="text" class="form-control" id="cognome">
+              </div>
             </div>
-            <label for="basic-addon1" class="form-label">Indirizzo Email</label>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
+           <div class="col">
+                <label for="basic-addon1" class="form-label">Email</label>
+                <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                  <input type="text" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
+                 </div>
+            </div>
+            <div class="col">
+                <label for="password" class="form-label">Password</label>
+                 <div class="input-group mb-3">
+                     <input type="text" class="form-control" id="password">
+                  </div>
+            </div>
+            <div class="col">
+              <label for="basic-addon1" class="form-label">Indirizzo Email</label>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
+              </div>
+            </div>
+           <div class="col">
+              <label for="password" class="form-label">Password</label>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" id="password">
+              </div>
+           </div>
+            <div class="col-12 col-md-12">
+              <label for="indirizzo" class="form-label">Indirizzo</label>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" id="indirizzo">
+              </div>
+            </div>
+            <div class="col">
+              <label for="città" class="form-label">Città</label>
+               <div class="input-group mb-3">
+                 <input type="text" class="form-control" id="città">
+               </div>
+            </div>
+          
+            <div class="col-12 col-md-4">
+              <label for="stato" class="form-label">Stato</label>
+              <div class="input-group mb-3">
+                <select class="form-control" id="stato" name="stato" form="stato">
+                  <option value="">Scegli..</option>
+                  <option value="Italia">Italia</option>
+                  <option value="Francia"></option>Francia</option>
+                  <option value="Spagna">Spagna</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-md-2">
+              <label for="cap" class="form-label">Cap</label>
+              <div class="input-group mb-3">
+                 <input type="text" class="form-control" id="cap">
+              </div>
+            </div>
+            <div class="col-12 col-md-12">
+              <input type="checkbox"><span class="px-2">Seleziona per proseguire</span>
+            </div>
+            <div class="col-12 col-md-12">
+                <label for="foto" class="form-label">Foto</label>
+                <div class="input-group mb-3">
+                 <span class="input-group-text" id="basic-addon1">Scegli il file</span>
+                 <input type="text" class="form-control" id="foto" placeholder="Nessun file selezionato">
+               </div>
             </div>
   
-          </div>
-  
+           
+          
+        
         <div class="col">
-  
-          <label for="cognome" class="form-label">Cognome</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" id="cognome">
-          </div>
-          <label for="password" class="form-label">Password</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" id="password">
-          </div>
-          <label for="password" class="form-label">Password</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" id="password">
-          </div>
-  
-        </div>
-        <div class="col-12">
-          <label for="indirizzo" class="form-label">Indirizzo</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" id="indirizzo">
-          </div>
-        </div>
-        <div class="col-6">
-          <label for="città" class="form-label">Città</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" id="città">
-          </div>
-        </div>
-        <div class="col-4">
-          <label for="stato" class="form-label">Stato</label>
-          <div class="input-group mb-3">
-            <select class="form-control" id="stato" name="stato" form="stato">
-              <option value="">Scegli..</option>
-              <option value="Italia">Italia</option>
-              <option value="Francia"></option>Francia</option>
-              <option value="Spagna">Spagna</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-2">
-          <label for="cap" class="form-label">Cap</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" id="cap">
-          </div>
-        </div>
-        <div class="col-12">
-          <label for="foto" class="form-label">Foto</label>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Scegli il file</span>
-            <input type="text" class="form-control" id="foto" placeholder="Nessun file selezionato">
-          </div>
-        </div>
-        <div class="col-12">
-        <input type="checkbox"><span class="px-2">Seleziona per proseguire</span>
-        </div>
-        <div>
           <button type="button" class="btn btn-primary btn-sm">Salva</button>
           <button type="button" class="btn btn-warning btn-sm">Svuota</button>
         </div>
