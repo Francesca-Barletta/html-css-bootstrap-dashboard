@@ -13,25 +13,28 @@
         
     <div id="app">
       <div class="app-content d-flex flex-column">
-            <navbar class="my-2 px-3">
-              <div class="row d-flex justify-content-between align-items-center">
-                  <a href="#" class=" deco-none col-auto">
-                    <img src="./img/mobile-logo.png" class="logo-mobile d-block d-lg-none" alt="">
-                    <img src="./img/logo.svg" class="d-none d-lg-block" alt="">
-                  </a>
-                  <div class="search-bar col-auto flex-grow-1 m-0 p-0">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" name="search" class="search-box border-0" placeholder="Prova a cercare: Lezioni di Laravel">
-                  </div>
-                  <div class="col-auto">
-                      <ul class="toolbar d-flex align-items-center p-0 m-0">
-                        <li class="d-none d-lg-block"><a href="#" class="deco-none"><i class="fa-solid fa-list"></i></a></li>
-                        <li class="d-none d-lg-block"><a href="#" class="deco-none"><i class="fa-solid fa-circle-question"></i></a></li>
-                        <li class="d-none d-lg-block"><a href="#" class="deco-none"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
-                        <li><a href="#" class="deco-none"><i class="fa-solid fa-bell text-warning"></i></a></li>
-                    </ul>
-                  </div>
-              </div>
+            <navbar class="my-2">
+                <div class="container-fluid">
+                  <div class="row d-flex justify-content-between align-items-center">
+                    <a href="#" class=" deco-none col-auto">
+                      <img src="./img/mobile-logo.png" class="logo-mobile d-block d-lg-none" alt="">
+                      <img src="./img/logo.svg" class="d-none d-lg-block" alt="">
+                    </a>
+                    <div class="search-bar col-auto flex-grow-1 m-0 p-0">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <input type="text" name="search" class="search-box border-0" placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
+                    <div class="col-auto">
+                        <ul class="toolbar d-flex align-items-center p-0 m-0">
+                          <li class="d-none d-lg-block"><a href="#" class="deco-none"><i class="fa-solid fa-list"></i></a></li>
+                          <li class="d-none d-lg-block"><a href="#" class="deco-none"><i class="fa-solid fa-circle-question"></i></a></li>
+                          <li class="d-none d-lg-block"><a href="#" class="deco-none"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                          <li><a href="#" class="deco-none"><i class="fa-solid fa-bell text-warning"></i></a></li>
+                      </ul>
+                    </div>
+                </div>
+                </div>
+             
             </navbar>
 
             <div class="app-main flex-grow-1 d-flex">
@@ -67,7 +70,7 @@
                     </ul>
                 </header>
       
-                <main class="col flex-grow-1">
+                <main class="flex-grow-1 main-app">
 <section class="toolbar">
                   <div class="row gx-0 px-2 flex-column flex-md-row bg-primary text-white">
                    
@@ -102,10 +105,10 @@
 
                   </div>
 </section>
-                  <div class="main-content row px-2 g-3">
+                  <div class="main-content row g-0">
 
                       <div class="col-12 col-lg-8">
-                        <div class="py-3">
+                        <div class="p-3">
                           <div class="card">
                             <div class="card-header">
                               <h4>Prossime classi</h4>
@@ -185,7 +188,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="">
+                        <div class="p-3">
                           <div class="card">
                             <div class="card-header">
                             <h4>FAQ</h4>
@@ -230,7 +233,7 @@
                       </div>
 
                       <div class="col-12 col-lg-4">
-                        <div class="py-3">
+                        <div class="p-3">
                           <div class="card">
                             <div class="card-header">
                               <H4>Todo</H4>
@@ -242,20 +245,22 @@
                             </ul>
                           </div>
                         </div>
-                        <div class="p-3 border rounded bg-white">
-                          <div class="card">
-                            <img src="./img/stats.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Utenti attivi</h5>
-                              <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item">Gennaio: 1200</li>
-                              <li class="list-group-item">Febbraio: 800</li>
-                              <li class="list-group-item">Marzo: 1500</li>
-                            </ul>
-                            <div class="card-body">
-                              <a href="#" class="card-link">Visualizza report approfondito</a>
+                        <div class="p-3">
+                          <div class="p-3 border rounded bg-white">
+                            <div class="card">
+                              <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Utenti attivi</h5>
+                                <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese </p>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Gennaio: 1200</li>
+                                <li class="list-group-item">Febbraio: 800</li>
+                                <li class="list-group-item">Marzo: 1500</li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="#" class="card-link">Visualizza report approfondito</a>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -264,7 +269,7 @@
                   </div>
                   
 
-<div class="offcanvas offcanvas-end" id="ms-offcanvas" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+<div class="offcanvas offcanvas-end"  data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Inserisci un nuovo studente</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

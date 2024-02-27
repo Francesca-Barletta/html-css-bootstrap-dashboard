@@ -100,6 +100,15 @@ navbar .row{
     margin-right: 10px;
     display: inline-block;
 }
-#ms-offcanvas{
+#offcanvasWithBothOptions{
     width: 100%;
+}
+@media (min-width:992px){
+    #offcanvasWithBothOptions{
+        width: 600px;
+    }
+}
+
+.main-app{
+    overflow: auto;
 }
